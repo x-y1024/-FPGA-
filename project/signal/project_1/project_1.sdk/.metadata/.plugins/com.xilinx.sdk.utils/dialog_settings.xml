@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="E:\zynq\signal\boot_img" key="bootgen_files_selection"/>
+	<item value="D:\FPGA\hand_G\xy\signal\project_1\project_1.runs\impl_1" key="program_fpga_view_bit_bmm_browse_key"/>
+	<item value="E:\zynq\LED_SW\LED_SW.sdk\boot_img" key="zynq_flash_files_selection"/>
+	<item value="D:\FPGA\hand_G\xy\signal\project_1\project_1.runs\impl_1" key="last_stored_selection"/>
+</section>

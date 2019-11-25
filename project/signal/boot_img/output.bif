@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = MCS
+the_ROM_image:
+{
+	[bootloader]E:\zynq\signal\boot_img\zynq_fsbl.elf
+	E:\zynq\signal\boot_img\design_1_wrapper.bit
+	E:\zynq\signal\boot_img\demo.elf
+}

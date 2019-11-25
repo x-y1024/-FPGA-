@@ -1,0 +1,187 @@
+19:27:08 **** Incremental Build of configuration Debug for project demo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'u32_to_float':
+../src/main.c:62:15: warning: unused variable 'result' [-Wunused-variable]
+  unsigned int result;
+               ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:139:19: warning: pointer targets in passing argument 1 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                   ^~~~~~~~
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'char *' but argument is of type 'u8 * {aka unsigned char *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:139:34: warning: pointer targets in passing argument 3 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                  ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:139:40: warning: pointer targets in passing argument 4 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                        ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:139:46: warning: pointer targets in passing argument 5 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                              ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:139:52: warning: pointer targets in passing argument 6 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                                    ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:139:58: warning: pointer targets in passing argument 7 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                                          ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:139:64: warning: pointer targets in passing argument 8 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                                                ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:139:72: warning: pointer targets in passing argument 9 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                                                        ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:139:80: warning: pointer targets in passing argument 10 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                                                                ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:179:10: warning: implicit declaration of function 'VGA_ShowBMP_640x480' [-Wimplicit-function-declaration]
+          VGA_ShowBMP_640x480(bmp_init0);
+          ^~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: demo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../demo_bsp/ps7_cortexa9_0/lib -o "demo.elf"  ./src/VGA.o ./src/crc.o ./src/main.o ./src/num_extraction.o ./src/platform.o ./src/uart_init.o ./src/xbpnn.o ./src/xbpnn_sinit.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size demo.elf  |tee "demo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+6283856	   2620	  23776	6310252	 60496c	demo.elf
+'Finished building: demo.elf.size'
+' '
+19:27:35 **** Incremental Build of configuration Debug for project demo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../demo_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'u32_to_float':
+../src/main.c:67:15: warning: unused variable 'result' [-Wunused-variable]
+  unsigned int result;
+               ^~~~~~
+../src/main.c: In function 'main':
+../src/main.c:144:19: warning: pointer targets in passing argument 1 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                   ^~~~~~~~
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'char *' but argument is of type 'u8 * {aka unsigned char *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:144:34: warning: pointer targets in passing argument 3 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                  ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:144:40: warning: pointer targets in passing argument 4 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                        ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:144:46: warning: pointer targets in passing argument 5 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                              ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:144:52: warning: pointer targets in passing argument 6 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                                    ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:144:58: warning: pointer targets in passing argument 7 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                                          ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:144:64: warning: pointer targets in passing argument 8 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                                                ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:144:72: warning: pointer targets in passing argument 9 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                                                        ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:144:80: warning: pointer targets in passing argument 10 of 'Num_Extraction' differ in signedness [-Wpointer-sign]
+    Num_Extraction(RecvChar, len, &Thu, &Ind, &Mid, &Rin, &Lit, &ACC_X, &ACC_Y, &ACC_Z);
+                                                                                ^
+In file included from ../src/main.c:16:0:
+../src/num_extraction.h:14:6: note: expected 'long int *' but argument is of type 'u32 * {aka long unsigned int *}'
+ void Num_Extraction(char *RecvChar, int len, long* Thu, long* Ind, long* Mid, long* Rin, long* Lit, long* ACC_X, long* ACC_Y, long* ACC_Z );
+      ^~~~~~~~~~~~~~
+../src/main.c:184:10: warning: implicit declaration of function 'VGA_ShowBMP_640x480' [-Wimplicit-function-declaration]
+          VGA_ShowBMP_640x480(bmp_init_welcome01);
+          ^~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: demo.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../demo_bsp/ps7_cortexa9_0/lib -o "demo.elf"  ./src/VGA.o ./src/crc.o ./src/main.o ./src/num_extraction.o ./src/platform.o ./src/uart_init.o ./src/xbpnn.o ./src/xbpnn_sinit.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: demo.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size demo.elf  |tee "demo.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+9355856	   2620	  23776	9382252	 8f296c	demo.elf
+'Finished building: demo.elf.size'
+' '
+19:42:53 **** Incremental Build of configuration Debug for project demo ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

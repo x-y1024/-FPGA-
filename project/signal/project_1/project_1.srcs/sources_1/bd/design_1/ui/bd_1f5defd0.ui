@@ -1,0 +1,49 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -y 140 -defaultsOSRD
+preplace port UART0_TX -pg 1 -y 490 -defaultsOSRD
+preplace port ctrl -pg 1 -y 70 -defaultsOSRD
+preplace port clk_in -pg 1 -y 560 -defaultsOSRD
+preplace port UART0_RX -pg 1 -y 330 -defaultsOSRD
+preplace port v_synch -pg 1 -y 590 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 470 -defaultsOSRD
+preplace port h_synch -pg 1 -y 610 -defaultsOSRD
+preplace portBus B -pg 1 -y 570 -defaultsOSRD
+preplace portBus R -pg 1 -y 530 -defaultsOSRD
+preplace portBus G -pg 1 -y 550 -defaultsOSRD
+preplace inst vga640x480_v1_1_0 -pg 1 -lvl 3 -y 570 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -y 70 -defaultsOSRD
+preplace inst bpnn_0 -pg 1 -lvl 3 -y 320 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 300 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -y 560 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -y 440 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 190 -defaultsOSRD
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 810
+preplace netloc processing_system7_0_DDR 1 1 3 NJ 120 850J 150 1170J
+preplace netloc vga640x480_v1_1_0_G 1 3 1 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 450
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 470 110 840
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 20 320 430
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 800
+preplace netloc UART0_RX_0_1 1 0 2 NJ 330 440
+preplace netloc processing_system7_0_UART0_TX 1 1 3 440J 130 820J 240 1160J
+preplace netloc vga640x480_v1_1_0_h_synch 1 3 1 NJ
+preplace netloc vga640x480_v1_1_0_v_synch 1 3 1 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 3 NJ 140 810J 230 1170J
+preplace netloc vga640x480_v1_1_0_B 1 3 1 NJ
+preplace netloc clk_in1_0_1 1 0 2 NJ 560 NJ
+preplace netloc clk_wiz_0_clk_out1 1 2 1 NJ
+preplace netloc axi_gpio_0_GPIO 1 3 1 NJ
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 10 60 460 70 830
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 800
+preplace netloc vga640x480_v1_1_0_R 1 3 1 NJ
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 1 480
+levelinfo -pg 1 -10 230 650 1010 1190 -top -10 -bot 670
+",
+}
+{
+   da_axi4_cnt: "4",
+   da_ps7_cnt: "1",
+}
